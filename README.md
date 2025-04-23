@@ -22,9 +22,10 @@ Aplikacja "Zanieczyszczenie Powietrza" pozwala użytkownikom na śledzenie aktua
 
 ## Wymagania
 
-- Android Studio Hedgehog (2023.1.1) lub nowszy
-- Minimum SDK: 24 (Android 7.0)
-- Gradle 8.0+
+> [!IMPORTANT]
+> - Android Studio Hedgehog (2023.1.1) lub nowszy
+> - Minimum SDK: 24 (Android 7.0)
+> - Gradle 8.0+
 
 ## Instalacja
 
