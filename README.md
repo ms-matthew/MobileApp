@@ -28,10 +28,12 @@ Aplikacja "Zanieczyszczenie Powietrza" pozwala użytkownikom na śledzenie aktua
 
 ## Instalacja
 
-1. Sklonuj repozytorium:
-git clone https://github.com/ms-matthew/zanieczyszczeniepowietrza.git
-2. Otwórz projekt w Android Studio i zsynchronizuj z Gradle.
-3. Uruchom aplikację na emulatorze lub urządzeniu.
+> [!TIP]
+> 1. Sklonuj repozytorium:
+> git clone https://github.com/ms-matthew/zanieczyszczeniepowietrza.git
+> 2. Otwórz projekt w Android Studio i zsynchronizuj z Gradle.
+> 3. Uruchom aplikację na emulatorze lub urządzeniu.
+
 
 ## Konfiguracja
 
