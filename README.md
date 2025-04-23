@@ -50,13 +50,6 @@ app/
 │   │   ├── MainActivity.kt # Główna aktywność aplikacji
 │   ├── res/                # Zasoby aplikacji
 
-## Udział w projekcie
-
-1. Zrób fork repozytorium
-2. Utwórz branch dla swojej funkcji (`git checkout -b feature/twoja-funkcja`)
-3. Zatwierdź zmiany (`git commit -m 'Dodaj nową funkcję'`)
-4. Wypchnij do brancha (`git push origin feature/twoja-funkcja`)
-5. Otwórz Pull Request
 
 ## Kontakt
 
