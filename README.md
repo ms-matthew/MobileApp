@@ -49,11 +49,11 @@ app/
 ├── src/
 │ └── main/
 │ ├── java/com/example/zanieczyszczeniepowietrza/
-│ │ ├── data/ # Klasy danych i repozytoria
-│ │ ├── ui/ # Komponenty UI i ekrany
-│ │ ├── viewmodel/ # ViewModele dla ekranów
-│ │ └── MainActivity.kt # Główna aktywność aplikacji
-│ └── res/ # Zasoby aplikacji (layouty, stringi, drawable itp.)
+│ │ ├── data/                   # Klasy danych i repozytoria
+│ │ ├── ui/                     # Komponenty UI i ekrany
+│ │ ├── viewmodel/              # ViewModele dla ekranów
+  │ │ └── MainActivity.kt       # Główna aktywność aplikacji
+│ └── res/                      # Zasoby aplikacji (layouty, stringi, drawable itp.)
 ```
 
 ## Kontakt
