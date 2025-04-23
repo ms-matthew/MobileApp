@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base target="_top">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Quick Start - Leaflet</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        html, body, #map {
+            width: 350px;
+            height: 400px;
+            touch-action: none;
+        }
+    </style>
+</head>
+<body>
+
+<div id="map" style="width: 380px; height: 400px;"></div>
+<script>
+    const map = L.map('map').setView([52.219298, 21.004724], 12);
+
+    const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 18,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+    let markers = [];
+
+    function updateMarkers(stations) {
+        markers.forEach(marker => map.removeLayer(marker));
+        markers = [];
+
+        stations.forEach(station => {
+            const marker = L.marker([station.lat, station.lon])
+                .bindPopup(`<b>${station.name}</b>`);
+            markers.push(marker);
+            marker.addTo(map);
+        });
+
+        if (markers.length > 0) {
+            const group = new L.featureGroup(markers);
+            map.fitBounds(group.getBounds().pad(0.1));
+        }
+    }
+    function centerMap(lat, lon) {
+        map.setView([lat, lon], 13);
+    }
+</script>
+
+</body>
+</html>
