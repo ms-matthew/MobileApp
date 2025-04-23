@@ -61,8 +61,6 @@ app/
 Mateusz Stachowicz - [mateusz.stachowicz1@wp.pl] - [https://github.com/ms-matthew]
 
 ![image](https://github.com/user-attachments/assets/4bf30cbd-9e88-413b-be3f-f97ede3798ef)
-
 ![image](https://github.com/user-attachments/assets/3de0ff76-a882-4f93-813a-19b94fabb8f3)
-
 ![image](https://github.com/user-attachments/assets/136c848a-6057-43d0-ae00-10ccc0a234a9)
-
+![image](https://github.com/user-attachments/assets/3e569bf9-453f-448e-be17-9e9954c1dffd)
