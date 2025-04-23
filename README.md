@@ -42,21 +42,13 @@ Aby korzystać z Firebase, musisz:
 
 ## Struktura projektu
 app/
-
 ├── src/main/
-
 │   ├── java/com/example/zanieczyszczeniepowietrza/
-
 │   │   ├── data/           # Klasy danych i repozytoria
-
 │   │   ├── ui/             # Komponenty UI i ekrany
-
 │   │   ├── viewmodel/      # ViewModele dla ekranów
-
 │   │   ├── MainActivity.kt # Główna aktywność aplikacji
-
 │   ├── res/                # Zasoby aplikacji
-
 
 ## Udział w projekcie
 
@@ -71,6 +63,8 @@ app/
 Mateusz Stachowicz - [mateusz.stachowicz1@wp.pl] - [https://github.com/ms-matthew]
 
 ![image](https://github.com/user-attachments/assets/4bf30cbd-9e88-413b-be3f-f97ede3798ef)
+
 ![image](https://github.com/user-attachments/assets/3de0ff76-a882-4f93-813a-19b94fabb8f3)
+
 ![image](https://github.com/user-attachments/assets/136c848a-6057-43d0-ae00-10ccc0a234a9)
 
