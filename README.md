@@ -44,7 +44,7 @@ Aby korzystać z Firebase, musisz:
 3. Pobrać plik `google-services.json` i umieścić go w katalogu `app/`
 
 ## Struktura projektu
-
+```bash
 app/
 ├── src/
 │ └── main/
@@ -54,7 +54,7 @@ app/
 │ │ ├── viewmodel/ # ViewModele dla ekranów
 │ │ └── MainActivity.kt # Główna aktywność aplikacji
 │ └── res/ # Zasoby aplikacji (layouty, stringi, drawable itp.)
-
+```
 
 ## Kontakt
 
