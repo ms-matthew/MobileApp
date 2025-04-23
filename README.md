@@ -41,6 +41,7 @@ Aby korzystać z Firebase, musisz:
 3. Pobrać plik `google-services.json` i umieścić go w katalogu `app/`
 
 ## Struktura projektu
+
 app/
 ├── src/main/
 │   ├── java/com/example/zanieczyszczeniepowietrza/
